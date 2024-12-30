@@ -138,3 +138,4 @@ C:\Users\Lenovo\source\repos\FinalProject\FinalProject\obj\Debug\net9.0-windows\
 C:\Users\Lenovo\source\repos\FinalProject\FinalProject\obj\Debug\net9.0-windows\FinalProject.Forms.DersIslemleri.resources
 C:\Users\Lenovo\source\repos\FinalProject\FinalProject\obj\Debug\net9.0-windows\FinalProject.Forms.OgrenciDersIslemleri.resources
 C:\Users\Lenovo\source\repos\FinalProject\FinalProject\obj\Debug\net9.0-windows\FinalProject.Forms.SinifIslemleri.resources
+C:\Users\Lenovo\source\repos\FinalProject\FinalProject\obj\Debug\net9.0-windows\FinalProject.sourcelink.json
