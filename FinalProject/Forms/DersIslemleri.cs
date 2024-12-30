@@ -170,6 +170,18 @@ namespace FinalProject.Forms
                 MessageBox.Show($"Bir hata oluştu: {ex.Message}");
             }
         }
+
+        private void DersIslemleri_Load_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Menu menu = new Menu();
+            this.Hide();
+            menu.Show();
+        }
     }
 }
 

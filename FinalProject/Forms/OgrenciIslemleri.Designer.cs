@@ -141,9 +141,10 @@
             // 
             btnEkle.BackColor = Color.DarkCyan;
             btnEkle.Font = new Font("Segoe UI", 11F, FontStyle.Bold);
+            btnEkle.ForeColor = Color.White;
             btnEkle.Location = new Point(360, 250);
             btnEkle.Name = "btnEkle";
-            btnEkle.Size = new Size(75, 34);
+            btnEkle.Size = new Size(92, 34);
             btnEkle.TabIndex = 5;
             btnEkle.Text = "Ekle";
             btnEkle.UseVisualStyleBackColor = false;
@@ -153,9 +154,10 @@
             // 
             btnSil.BackColor = Color.DarkCyan;
             btnSil.Font = new Font("Segoe UI", 11F, FontStyle.Bold);
+            btnSil.ForeColor = Color.White;
             btnSil.Location = new Point(360, 290);
             btnSil.Name = "btnSil";
-            btnSil.Size = new Size(75, 34);
+            btnSil.Size = new Size(92, 34);
             btnSil.TabIndex = 6;
             btnSil.Text = "Sil";
             btnSil.UseVisualStyleBackColor = false;
@@ -165,9 +167,10 @@
             // 
             btnGuncelle.BackColor = Color.DarkCyan;
             btnGuncelle.Font = new Font("Segoe UI", 11F, FontStyle.Bold);
-            btnGuncelle.Location = new Point(363, 330);
+            btnGuncelle.ForeColor = Color.White;
+            btnGuncelle.Location = new Point(360, 330);
             btnGuncelle.Name = "btnGuncelle";
-            btnGuncelle.Size = new Size(72, 34);
+            btnGuncelle.Size = new Size(92, 34);
             btnGuncelle.TabIndex = 7;
             btnGuncelle.Text = "Güncelle";
             btnGuncelle.UseVisualStyleBackColor = false;
@@ -177,9 +180,10 @@
             // 
             btnBul.BackColor = Color.DarkCyan;
             btnBul.Font = new Font("Segoe UI", 11F, FontStyle.Bold);
-            btnBul.Location = new Point(286, 290);
+            btnBul.ForeColor = Color.White;
+            btnBul.Location = new Point(262, 290);
             btnBul.Name = "btnBul";
-            btnBul.Size = new Size(68, 34);
+            btnBul.Size = new Size(92, 34);
             btnBul.TabIndex = 8;
             btnBul.Text = "Bul";
             btnBul.UseVisualStyleBackColor = false;
@@ -189,11 +193,12 @@
             // 
             btnOItoMenu.BackColor = Color.DarkCyan;
             btnOItoMenu.Font = new Font("Segoe UI", 11F, FontStyle.Bold);
-            btnOItoMenu.Location = new Point(12, 12);
+            btnOItoMenu.ForeColor = Color.White;
+            btnOItoMenu.Location = new Point(10, 12);
             btnOItoMenu.Name = "btnOItoMenu";
-            btnOItoMenu.Size = new Size(83, 29);
+            btnOItoMenu.Size = new Size(92, 34);
             btnOItoMenu.TabIndex = 9;
-            btnOItoMenu.Text = "Menü";
+            btnOItoMenu.Text = "Ana Menü";
             btnOItoMenu.UseVisualStyleBackColor = false;
             btnOItoMenu.Click += btnOItoMenu_Click;
             // 
@@ -201,9 +206,10 @@
             // 
             btnOgrenciDers.BackColor = Color.DarkCyan;
             btnOgrenciDers.Font = new Font("Segoe UI", 11F, FontStyle.Bold);
-            btnOgrenciDers.Location = new Point(360, 12);
+            btnOgrenciDers.ForeColor = Color.White;
+            btnOgrenciDers.Location = new Point(323, 12);
             btnOgrenciDers.Name = "btnOgrenciDers";
-            btnOgrenciDers.Size = new Size(82, 29);
+            btnOgrenciDers.Size = new Size(132, 34);
             btnOgrenciDers.TabIndex = 10;
             btnOgrenciDers.Text = "Ders İşlemleri";
             btnOgrenciDers.UseVisualStyleBackColor = false;

@@ -35,39 +35,48 @@
             // 
             // btnOgrenci
             // 
+            btnOgrenci.BackColor = Color.DarkCyan;
+            btnOgrenci.Font = new Font("Segoe UI", 11F, FontStyle.Bold);
+            btnOgrenci.ForeColor = Color.White;
             btnOgrenci.Location = new Point(87, 12);
             btnOgrenci.Name = "btnOgrenci";
-            btnOgrenci.Size = new Size(197, 23);
+            btnOgrenci.Size = new Size(197, 51);
             btnOgrenci.TabIndex = 0;
             btnOgrenci.Text = "Öğrenci İşlemleri";
-            btnOgrenci.UseVisualStyleBackColor = true;
+            btnOgrenci.UseVisualStyleBackColor = false;
             btnOgrenci.Click += btnOgrenci_Click;
             // 
             // btnDers
             // 
-            btnDers.Location = new Point(87, 41);
+            btnDers.BackColor = Color.DarkCyan;
+            btnDers.Font = new Font("Segoe UI", 11F, FontStyle.Bold);
+            btnDers.ForeColor = Color.White;
+            btnDers.Location = new Point(87, 69);
             btnDers.Name = "btnDers";
-            btnDers.Size = new Size(197, 23);
+            btnDers.Size = new Size(197, 51);
             btnDers.TabIndex = 1;
             btnDers.Text = "Ders İşlemleri";
-            btnDers.UseVisualStyleBackColor = true;
+            btnDers.UseVisualStyleBackColor = false;
             btnDers.Click += btnDers_Click;
             // 
             // btnSinif
             // 
-            btnSinif.Location = new Point(87, 70);
+            btnSinif.BackColor = Color.DarkCyan;
+            btnSinif.Font = new Font("Segoe UI", 11F, FontStyle.Bold);
+            btnSinif.ForeColor = Color.White;
+            btnSinif.Location = new Point(87, 126);
             btnSinif.Name = "btnSinif";
-            btnSinif.Size = new Size(197, 23);
+            btnSinif.Size = new Size(197, 51);
             btnSinif.TabIndex = 2;
             btnSinif.Text = "Sınıf İşlemleri";
-            btnSinif.UseVisualStyleBackColor = true;
+            btnSinif.UseVisualStyleBackColor = false;
             btnSinif.Click += btnSinif_Click;
             // 
             // Menu
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(335, 197);
+            ClientSize = new Size(355, 210);
             Controls.Add(btnSinif);
             Controls.Add(btnDers);
             Controls.Add(btnOgrenci);

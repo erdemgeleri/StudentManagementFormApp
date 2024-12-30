@@ -215,5 +215,10 @@ namespace FinalProject.Forms
             this.Hide();
             ogrenciIslemleri.Show();
         }
+
+        private void lbl_ad_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

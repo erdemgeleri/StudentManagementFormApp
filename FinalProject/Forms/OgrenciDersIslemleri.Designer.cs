@@ -58,7 +58,7 @@
             // lblAd
             // 
             lblAd.AutoSize = true;
-            lblAd.Location = new Point(170, 45);
+            lblAd.Location = new Point(170, 21);
             lblAd.Name = "lblAd";
             lblAd.Size = new Size(0, 15);
             lblAd.TabIndex = 1;
@@ -66,7 +66,7 @@
             // lblSoyad
             // 
             lblSoyad.AutoSize = true;
-            lblSoyad.Location = new Point(170, 73);
+            lblSoyad.Location = new Point(170, 49);
             lblSoyad.Name = "lblSoyad";
             lblSoyad.Size = new Size(0, 15);
             lblSoyad.TabIndex = 2;
@@ -74,7 +74,7 @@
             // lblNumara
             // 
             lblNumara.AutoSize = true;
-            lblNumara.Location = new Point(170, 99);
+            lblNumara.Location = new Point(170, 75);
             lblNumara.Name = "lblNumara";
             lblNumara.Size = new Size(0, 15);
             lblNumara.TabIndex = 3;
@@ -82,7 +82,7 @@
             // lblSinif
             // 
             lblSinif.AutoSize = true;
-            lblSinif.Location = new Point(170, 126);
+            lblSinif.Location = new Point(170, 102);
             lblSinif.Name = "lblSinif";
             lblSinif.Size = new Size(0, 15);
             lblSinif.TabIndex = 4;
@@ -90,66 +90,78 @@
             // lbl_ad
             // 
             lbl_ad.AutoSize = true;
-            lbl_ad.Location = new Point(108, 45);
+            lbl_ad.Font = new Font("Segoe UI", 11F, FontStyle.Bold);
+            lbl_ad.Location = new Point(108, 21);
             lbl_ad.Name = "lbl_ad";
-            lbl_ad.Size = new Size(25, 15);
+            lbl_ad.Size = new Size(33, 20);
             lbl_ad.TabIndex = 5;
             lbl_ad.Text = "Ad:";
+            lbl_ad.Click += lbl_ad_Click;
             // 
             // lbl_soyad
             // 
             lbl_soyad.AutoSize = true;
-            lbl_soyad.Location = new Point(108, 73);
+            lbl_soyad.Font = new Font("Segoe UI", 11F, FontStyle.Bold);
+            lbl_soyad.Location = new Point(108, 49);
             lbl_soyad.Name = "lbl_soyad";
-            lbl_soyad.Size = new Size(42, 15);
+            lbl_soyad.Size = new Size(55, 20);
             lbl_soyad.TabIndex = 6;
             lbl_soyad.Text = "Soyad:";
             // 
             // lbl_numara
             // 
             lbl_numara.AutoSize = true;
-            lbl_numara.Location = new Point(108, 99);
+            lbl_numara.Font = new Font("Segoe UI", 11F, FontStyle.Bold);
+            lbl_numara.Location = new Point(108, 75);
             lbl_numara.Name = "lbl_numara";
-            lbl_numara.Size = new Size(53, 15);
+            lbl_numara.Size = new Size(70, 20);
             lbl_numara.TabIndex = 7;
             lbl_numara.Text = "Numara:";
             // 
             // lbl_sinif
             // 
             lbl_sinif.AutoSize = true;
-            lbl_sinif.Location = new Point(108, 126);
+            lbl_sinif.Font = new Font("Segoe UI", 11F, FontStyle.Bold);
+            lbl_sinif.Location = new Point(108, 102);
             lbl_sinif.Name = "lbl_sinif";
-            lbl_sinif.Size = new Size(33, 15);
+            lbl_sinif.Size = new Size(45, 20);
             lbl_sinif.TabIndex = 8;
             lbl_sinif.Text = "Sınıf:";
             // 
             // lblDersler
             // 
             lblDersler.AutoSize = true;
-            lblDersler.Location = new Point(108, 154);
+            lblDersler.Font = new Font("Segoe UI", 11F, FontStyle.Bold);
+            lblDersler.Location = new Point(108, 149);
             lblDersler.Name = "lblDersler";
-            lblDersler.Size = new Size(43, 15);
+            lblDersler.Size = new Size(59, 20);
             lblDersler.TabIndex = 9;
             lblDersler.Text = "Dersler";
             // 
             // btnKaydet
             // 
+            btnKaydet.BackColor = Color.DarkCyan;
+            btnKaydet.Font = new Font("Segoe UI", 11F, FontStyle.Bold);
+            btnKaydet.ForeColor = Color.White;
             btnKaydet.Location = new Point(191, 398);
             btnKaydet.Name = "btnKaydet";
-            btnKaydet.Size = new Size(367, 23);
+            btnKaydet.Size = new Size(367, 36);
             btnKaydet.TabIndex = 10;
             btnKaydet.Text = "Öğrencinin Derslerini Kaydet";
-            btnKaydet.UseVisualStyleBackColor = true;
+            btnKaydet.UseVisualStyleBackColor = false;
             btnKaydet.Click += btnKaydet_Click_1;
             // 
             // button1
             // 
-            button1.Location = new Point(191, 425);
+            button1.BackColor = Color.DarkCyan;
+            button1.Font = new Font("Segoe UI", 11F, FontStyle.Bold);
+            button1.ForeColor = Color.White;
+            button1.Location = new Point(191, 440);
             button1.Name = "button1";
-            button1.Size = new Size(367, 23);
+            button1.Size = new Size(367, 36);
             button1.TabIndex = 11;
             button1.Text = "Öğrencinin Derslerini Göster";
-            button1.UseVisualStyleBackColor = true;
+            button1.UseVisualStyleBackColor = false;
             button1.Click += button1_Click;
             // 
             // lbl_dersler
@@ -162,12 +174,15 @@
             // 
             // button2
             // 
-            button2.Location = new Point(191, 451);
+            button2.BackColor = Color.DarkCyan;
+            button2.Font = new Font("Segoe UI", 11F, FontStyle.Bold);
+            button2.ForeColor = Color.White;
+            button2.Location = new Point(191, 482);
             button2.Name = "button2";
-            button2.Size = new Size(367, 23);
+            button2.Size = new Size(367, 36);
             button2.TabIndex = 13;
             button2.Text = "Öğrencinin Derslerini Sil";
-            button2.UseVisualStyleBackColor = true;
+            button2.UseVisualStyleBackColor = false;
             button2.Click += button2_Click;
             // 
             // label1
@@ -182,12 +197,15 @@
             // 
             // btnGeri
             // 
+            btnGeri.BackColor = Color.DarkCyan;
+            btnGeri.Font = new Font("Segoe UI", 11F, FontStyle.Bold);
+            btnGeri.ForeColor = Color.White;
             btnGeri.Location = new Point(12, 12);
             btnGeri.Name = "btnGeri";
             btnGeri.Size = new Size(75, 29);
             btnGeri.TabIndex = 15;
             btnGeri.Text = "Geri";
-            btnGeri.UseVisualStyleBackColor = true;
+            btnGeri.UseVisualStyleBackColor = false;
             btnGeri.Click += btnGeri_Click;
             // 
             // OgrenciDersIslemleri
