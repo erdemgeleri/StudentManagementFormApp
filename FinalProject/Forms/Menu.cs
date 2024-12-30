@@ -31,5 +31,12 @@ namespace FinalProject
             this.Hide();
             sinifIslemleri.Show();
         }
+
+        private void btnDers_Click(object sender, EventArgs e)
+        {
+            DersIslemleri dersIslemleri = new DersIslemleri();
+            this.Hide();
+            dersIslemleri.Show();
+        }
     }
 }
