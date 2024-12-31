@@ -82,6 +82,7 @@
             Controls.Add(btnOgrenci);
             Name = "Menu";
             Text = "Menu";
+            Load += Menu_Load;
             ResumeLayout(false);
         }
 

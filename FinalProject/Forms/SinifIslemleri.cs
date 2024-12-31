@@ -229,7 +229,6 @@ namespace FinalProject.Forms
 
                         if (sinif != null)
                         {
-                            // Öğrenci kontrolü
                             if (sinif.Ogrenciler.Count > 0)
                             {
                                 MessageBox.Show("Bu sınıfta kayıtlı öğrenciler bulunmaktadır. Sınıf silinemez.");
@@ -273,14 +272,12 @@ namespace FinalProject.Forms
 
                         if (sinif != null)
                         {
-                            // Kontenjan kontrolü
                             if (sinif.Kontenjan < 0)
                             {
                                 MessageBox.Show("Kontenjan değeri geçersiz!");
                                 return;
                             }
 
-                            // Güncelleme işlemi
                             sinif.SinifAd = tbSinifAdi.Text;
                             sinif.Kontenjan = int.Parse(tbKontenjan.Text);
                             ctx.SaveChanges();

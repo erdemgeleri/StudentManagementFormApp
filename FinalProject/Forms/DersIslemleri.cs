@@ -37,7 +37,6 @@ namespace FinalProject.Forms
 
                 using (var ctx = new FinalDBContext())
                 {
-                    // Ders adı var mı kontrol et
                     var mevcutDers = ctx.Dersler.FirstOrDefault(d => d.DersAd == dersAd);
                     if (mevcutDers != null)
                     {
@@ -82,7 +81,6 @@ namespace FinalProject.Forms
 
                     if (ders != null)
                     {
-                        // Dersin öğrencilere atanıp atanmadığını kontrol et
                         if (ders.OgrenciDersler != null && ders.OgrenciDersler.Count > 0)
                         {
                             MessageBox.Show("Bu derse kayıtlı öğrenciler olduğu için ders silinemez.");
